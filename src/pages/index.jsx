@@ -12,11 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DeceptiConf - A community-driven design conference</title>
-        <meta
-          name="description"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum volutpat mi, ut tempor nulla cursus ut. Aliquam fermentum rutrum fringilla. Phasellus pharetra quis dolor a pulvinar. Fusce non nisl mauris vestibulum ante ipsum."
-        />
+        <title>Soproni Borzongás 2022</title>
+        <meta name="description" content="Soproni Borzongás 2022" />
       </Head>
       <Header />
       <main>
