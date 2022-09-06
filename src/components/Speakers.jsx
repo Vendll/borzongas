@@ -12,6 +12,9 @@ import django from '@/images/avatars/django.jpg'
 import palack from '@/images/avatars/palack.jpg'
 import altalanos from '@/images/avatars/borzongas_alt.jpg'
 import messessippi from '@/images/avatars/messessippi.jpeg'
+import langaleta from '@/images/avatars/langaletra.jpeg'
+import ripoff from '@/images/avatars/ripoff.jpeg'
+import kollar from '@/images/avatars/kollar.jpeg'
 
 const days = [
   {
@@ -37,7 +40,7 @@ const days = [
       {
         name: 'Kollár - Klemencz László kamara Trió- Ég az erdő',
         role: 'Design Engineer at Weyland-Yutani',
-        image: altalanos,
+        image: kollar,
       },
     ],
   },
@@ -54,7 +57,7 @@ const days = [
       {
         name: 'Langaléta Garabonciások találkozás a kurtalábú közönséggel',
         role: 'UX Design at InGen',
-        image: altalanos,
+        image: langaleta,
       },
       {
         name: 'Teddy Harpo One Man Band',
@@ -64,7 +67,7 @@ const days = [
       {
         name: 'Ripoff Raskolnikov Band',
         role: 'Design Engineer at Weyland-Yutani',
-        image: altalanos,
+        image: ripoff,
       },
     ],
   },
@@ -75,6 +78,11 @@ const days = [
     speakers: [
       {
         name: 'KultPETŐFI',
+        role: 'Designer at Globex Corporation',
+        image: altalanos,
+      },
+      {
+        name: 'Fertőszentmiklósi Citera Klub',
         role: 'Designer at Globex Corporation',
         image: altalanos,
       },
@@ -157,7 +165,7 @@ export function Speakers() {
                     </svg>
                     <div className="relative">
                       <div
-                        className={clsx('font-mono text-sm', {
+                        className={clsx('text-sm', {
                           'text-borzSarga': dayIndex === selectedIndex,
                           'text-slate-500': dayIndex !== selectedIndex,
                         })}

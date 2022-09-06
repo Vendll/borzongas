@@ -25,10 +25,17 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-borzKek sm:text-7xl">
-            Őszi Borzsongás
+          <h1 className="text-l font-display font-bold tracking-tighter text-borzKek sm:text-7xl">
+            Soproni Borzsongás
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-borzKek">
+          <div className="text-l mt-6 space-y-6 font-display tracking-tight text-black">
+            <p>
+              Magyarország legősibb borvidékének boros gazdáival invitáljuk
+              Önöket a soproni bor útjának bejárására. Várjuk a bort szerető
+              látogatókat, ismerjék meg a hagyományok ápolásának, valamint a
+              modern borkészítés tudományának egyesüléseként megalkotott szép
+              borokat, amelyeket már vagy szeretnek, vagy szeretni fognak.
+            </p>
             <p>
               „Királyi gyümölcs, és a szegények gyümölcse, mert ízében benne van
               minden jó íz, amelyet az életben szerettünk.” – írja Krúdy a szőlő
@@ -48,8 +55,8 @@ export function Hero() {
               ['Helyszín', 'Sopron, Deák tér'],
             ].map(([name, value]) => (
               <div key={name}>
-                <dt className="text-sm text-borzKek">{name}</dt>
-                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-borzSarga">
+                <dt className="text-sm text-black">{name}</dt>
+                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-borzPiros">
                   {value}
                 </dd>
               </div>

@@ -78,25 +78,25 @@ const schedule = [
       'We close out the event previewing new techniques that are still in development.',
     timeSlots: [
       {
-        name: 'A KultPETŐFI rendezvény részeként: Petőfi versek-diákok',
+        name: 'KultPETŐFI: Petőfi versek-diákok',
         description: 'Neuralink dark patterns',
         start: '15:00',
         end: '16:00',
       },
       {
-        name: 'A KultPETŐFI rendezvény részeként: Pendelyes-néptánc',
+        name: 'KultPETŐFI: Pendelyes-néptánc',
         description: 'DALL-E for passports',
         start: '16:00',
         end: '16:30',
       },
       {
-        name: 'A KultPETŐFI rendezvény részeként: Fertőszentmiklósi Citera Klub',
+        name: 'Fertőszentmiklósi Citera Klub',
         description: 'Quantum password cracking',
         start: '16:30',
         end: '17:00',
       },
       {
-        name: 'A KultPETŐFI rendezvény részeként: Fertőszentmiklósi Férfi Dalárda',
+        name: 'KultPETŐFI: Fertőszentmiklósi Férfi Dalárda',
         description: null,
         start: '17:00',
         end: '18:00',
