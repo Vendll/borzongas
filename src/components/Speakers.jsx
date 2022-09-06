@@ -15,6 +15,8 @@ import messessippi from '@/images/avatars/messessippi.jpeg'
 import langaleta from '@/images/avatars/langaletra.jpeg'
 import ripoff from '@/images/avatars/ripoff.jpeg'
 import kollar from '@/images/avatars/kollar.jpeg'
+import pendelyes from '@/images/avatars/pendelyes.jpg'
+import dalarda from '@/images/avatars/dalarda.jpg'
 
 const days = [
   {
@@ -77,9 +79,19 @@ const days = [
     dateTime: '2022-09-25',
     speakers: [
       {
-        name: 'KultPETŐFI',
+        name: 'KultPETŐFI, Petőfi versek-diákok',
         role: 'Designer at Globex Corporation',
         image: altalanos,
+      },
+      {
+        name: 'KultPETŐFI, Pendelyes-néptánc',
+        role: 'Designer at Globex Corporation',
+        image: pendelyes,
+      },
+      {
+        name: 'KultPETŐFI, Fertőszentmiklósi Férfi Dalárda',
+        role: 'Designer at Globex Corporation',
+        image: dalarda,
       },
       {
         name: 'Fertőszentmiklósi Citera Klub',
