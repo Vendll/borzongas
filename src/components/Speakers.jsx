@@ -17,6 +17,7 @@ import ripoff from '@/images/avatars/ripoff.jpeg'
 import kollar from '@/images/avatars/kollar.jpeg'
 import pendelyes from '@/images/avatars/pendelyes.jpg'
 import dalarda from '@/images/avatars/dalarda.jpg'
+import citerazenekar from '@/images/avatars/citerazenekar.jpeg'
 
 const days = [
   {
@@ -96,7 +97,7 @@ const days = [
       {
         name: 'Fertőszentmiklósi Citera Klub',
         role: 'Designer at Globex Corporation',
-        image: altalanos,
+        image: citerazenekar,
       },
       {
         name: 'Ötödik évszak',
