@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Soproni Borzongás 2022</title>
+        <title>Soproni Borzsongás 2022</title>
         <meta name="description" content="Soproni Borzongás 2022" />
       </Head>
       <Header />
