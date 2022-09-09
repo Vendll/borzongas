@@ -4,6 +4,7 @@ import { Logo } from '@/components/Logo'
 import MainLogo from '@/images/logos/borzsongás-02.svg'
 import { AiFillFacebook } from 'react-icons/ai'
 import { AiFillInstagram } from 'react-icons/ai'
+import Link from 'next/link'
 export function Header() {
   return (
     <header className="relative z-50 pb-11 lg:pt-11">
@@ -31,8 +32,12 @@ export function Header() {
           </div>
         </div>
         <div className="hidden text-2xl sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <AiFillFacebook className="text-borzPiros" />
-          <AiFillInstagram className="text-borzSarga" />
+          <Link href="https://www.facebook.com/soproniborzsongas">
+            <AiFillFacebook className="text-borzPiros" />
+          </Link>
+          <Link href="https://www.instagram.com/soproniborzsongas/">
+            <AiFillInstagram className="text-borzSarga" />
+          </Link>
         </div>
       </Container>
     </header>
