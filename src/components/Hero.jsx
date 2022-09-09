@@ -51,7 +51,7 @@ export function Hero() {
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Fellépők', '14'],
-              ['Pincészetek', '21 (?)'],
+              ['Pincészetek', '23'],
               ['Helyszín', 'Sopron, Deák tér'],
             ].map(([name, value]) => (
               <div key={name}>
