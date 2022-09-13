@@ -30,22 +30,19 @@ export function Hero() {
           </h1>
           <div className="text-l mt-6 space-y-6 font-display tracking-tight text-black">
             <p>
-              Magyarország legősibb borvidékének boros gazdáival invitáljuk
-              Önöket a soproni bor útjának bejárására. Várjuk a bort szerető
-              látogatókat, ismerjék meg a hagyományok ápolásának, valamint a
-              modern borkészítés tudományának egyesüléseként megalkotott szép
-              borokat, amelyeket már vagy szeretnek, vagy szeretni fognak.
+              Magyarország legősibb borvidékének 19 boros gazdájával invitáljuk
+              Önöket a soproni bor útjának bejárására szeptember 23-25 között.
+              Várjuk a bort szerető látogatókat, ismerjék meg a hagyományok
+              ápolásának, valamint a modern borkészítés tudományának
+              egyesüléseként megalkotott szép borokat, amelyeket már vagy
+              szeretnek, vagy szeretni fognak. A kínálatot színpadi és egyéb
+              program csemegék is színesítik.
             </p>
             <p>
-              „Királyi gyümölcs, és a szegények gyümölcse, mert ízében benne van
-              minden jó íz, amelyet az életben szerettünk.” – írja Krúdy a szőlő
-              ezerféle zamatáról, melyek a bor aromájában, illatában és
-              színeinek ragyogásában kelnek új életre a legjobb palackok
-              nedűiként. Az Őszi Borzsongás a Soproni Borvidék borászataival is
-              ennek a gazdagságnak igyekszik minél átfogóbb gyűjteményét
-              bemutatni a Deák téren szeptember 23-25 között.
+              Itt lesznek velünk: a HofferSuli zenekarai, a HELIT és TIMELESS,
+              Kollár-Klemencz László triója, Ripoff Raskolnikov, Teddy Harpo,
+              Hangácsi Márton, az Ötödik évszak és a Swing à la Django
             </p>
-            <p>A kínálatot színpadi és egyéb program csemegék színesítik.</p>
           </div>
 
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
