@@ -7,6 +7,7 @@ import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
+import RfSection from '@/components/RfSection'
 import Script from 'next/script'
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Sponsors />
+        <RfSection />
       </main>
       <Footer />
     </>
